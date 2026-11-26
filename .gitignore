@@ -39,3 +39,17 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# secrets and signing (never commit)
+.env
+.env.*
+!.env.example
+*.keystore
+credentials.json
+google-services.json
+GoogleService-Info.plist
+play-store-key*.json
+
+# local tool settings
+.claude/settings.local.json
+*.log
